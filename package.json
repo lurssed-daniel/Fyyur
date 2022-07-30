@@ -1,0 +1,27 @@
+{
+  "name": "fyyur",
+  "version": "1.0.0",
+  "description": "Artist Booking Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lurssed-daniel/Fyyur.git"
+  },
+  "keywords": [
+    "Udacity-project",
+    "artist-booking-site",
+    "fyyur"
+  ],
+  "author": "Daniel Obiero Nyanjom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lurssed-daniel/Fyyur/issues"
+  },
+  "homepage": "https://github.com/lurssed-daniel/Fyyur#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}

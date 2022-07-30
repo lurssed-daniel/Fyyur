@@ -18,6 +18,7 @@ from forms import *
 
 app = Flask(__name__)
 moment = Moment(app)
+app.config ['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres@localhost:5432/Fyyur'
 app.config.from_object('config')
 db = SQLAlchemy(app)
 
@@ -38,6 +39,8 @@ class Venue(db.Model):
     phone = db.Column(db.String(120))
     image_link = db.Column(db.String(500))
     facebook_link = db.Column(db.String(120))
+
+db.create_all()
 
     # TODO: implement any missing fields, as a database migration using Flask-Migrate
 
